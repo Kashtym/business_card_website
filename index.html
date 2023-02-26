@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700&family=Hind:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./style/styles.css" />
+        <title>Hennadii Kashtymov - business card website</title>
+    </head>
+    <body>
+        <div class="page">
+            <header>
+                <nav class="top-menu" id="navbar">
+                    <ul>
+                        <li><a href="#welcome-section">ABOUT</a></li>
+                        <li><a href="#projects">WORKS</a></li>
+                        <li><a href="#contacts">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section id="welcome-section" class="welcome-section container">
+                    <div class="description">
+                        <h1>
+                            Hi, I'm <br />
+                            Hennadii Kashtymov
+                        </h1>
+                        <p>I'm a web developer</p>
+                    </div>
+                    <div class="image">
+                        <div class="foto-container">
+                            <div class="foto">
+                                <img src="./img/developer.png" alt="foto" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="projects" class="projects container">
+                    <div>
+                        <h2>Recent Works</h2>
+                        <div class="projects-grid">
+                            <a
+                                href="https://github.com/Kashtym/Tribute-Page"
+                                target="_blank"
+                                class="project"
+                            >
+                                <img
+                                    src="./img/project_1.png"
+                                    alt="img_project_1"
+                                />
+                                <p>
+                                    <span class="project-select">&lt;&nbsp;</span>Tribute Page<span
+                                        >&nbsp;/&gt;</span  class="project-select"
+                                    >
+                                </p>
+                            </a>
+
+                            <a
+                                href="https://github.com/Kashtym/landing_page"
+                                target="_blank"
+                                class="project"
+                            >
+                                <img
+                                    src="./img/project_2.png"
+                                    alt="img_project_2"
+                                />
+                                <p>
+                                    <span class="project-select">&lt;&nbsp;</span>Landing Page<span
+                                        >&nbsp;/&gt;</span  class="project-select"
+                                    >
+                                </p>
+                            </a>
+
+                            <a
+                                href="https://kashtym.github.io/Memory-card-game/"
+                                target="_blank"
+                                class="project"
+                            >
+                                <img
+                                    src="./img/project_3.png"
+                                    alt="img_project_3"
+                                />
+                                <p>
+                                    <span class="project-select">&lt;&nbsp;</span>Memory card game<span
+                                        >&nbsp;/&gt;</span  class="project-select"
+                                    >
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section id="contacts" class="contacts container">
+                    <div class="contact-data">
+                        <h2>Contact</h2>
+                        <p>Got a problem to solve?</p>
+                        <ul><li>
+                                <a href="https://t.me/Hennadii_Kashtymov" target="_blank"
+                                    ><img
+                                        src="./img/icons/telegram.svg"
+                                        alt=""
+                                    />
+                                    Telegram</a
+                                >
+                            </li>
+                            <li>
+                                <a href="https://github.com/Kashtym" target="_blank"
+                                    ><img src="./img/icons/github.svg" alt="" />
+                                    GitHub</a
+                                >
+                            </li>
+                            <li>
+                                <a href="mailto:kashtymov.eto2@gmail.com" target="_blank"
+                                    ><img src="./img/icons/email.svg" alt="" />
+                                    kashtymov.eto2@gmail.com </a
+                                >
+                            </li>
+                            <li>
+                                <a href="tel:+380660000000"
+                                    ><img src="./img/icons/phone.svg" alt="" />
+                                    +38(066)000-00-00</a
+                                >
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <label id="name-label"
+                                >NAME<input
+                                    id="name"
+                                    type="text"
+                                    required
+                                    placeholder="Enter your name"
+                            /></label>
+                            <label id="email-label"
+                                >EMAIL<input
+                                    id="email"
+                                    type="email"
+                                    required
+                                    placeholder="Enter your Email"
+                            /></label>
+                            <label for="message"
+                                >MESSAGE
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                ></textarea>
+                            </label>
+                            <button class="button" type="submit" id="submit">SEND MESSAGE</button>
+                        </form>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <div class="copyright">
+                    © 2023 Hennadii Kashtymov all rights reserved
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
